@@ -1,28 +1,28 @@
 {
-    "name": "generator-spring-magic",
-    "version": "1.0",
-    "description": "Yeoman generator for creating very basic web application with Spring MVC and Tomcat",
-    "files": [
-       "generators"
-    ],
-    "keywords": [
-       "yeoman-generator-spring-magic",
-       "spring-boot",
-       "Java",
-       "Maven",
-       "spring-magic"
-     ],
-     "main": "generators/app/index.js",
-     "repository": {
-       "type": "git",
-       "url": "https://github.com/bsalgautam16/generator-spring-magic.git"
-     },
-     "author": "Bishal Gautam",
-     "contact": "bishalg.tech@gmail.com",
-     "dependencies": {
-        "yeoman-environment": "2.3.4",
-        "yeoman-generator": "3.2.0",
-        "chalk": "2.4.2",
-        "ejs": "2.6.1"
-     }
+   "name": "generator-spring-magic",
+   "version": "0.1.0",
+   "description": "Yeoman generator for creating very basic web application with Spring MVC and Tomcat",
+   "files": [
+      "generators"
+   ],
+   "keywords": [
+      "yeoman-generator-spring-magic",
+      "spring-boot",
+      "Java",
+      "Maven",
+      "spring-magic"
+   ],
+   "main": "generators/app/index.js",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/bsalgautam16/generator-spring-magic.git"
+   },
+   "author": "Bishal Gautam",
+   "contact": "bishalg.tech@gmail.com",
+   "dependencies": {
+      "yeoman-environment": "2.3.4",
+      "yeoman-generator": "3.2.0",
+      "chalk": "2.4.2",
+      "ejs": "2.6.1"
+   }
 }
