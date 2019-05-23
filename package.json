@@ -6,6 +6,7 @@
       "generators"
    ],
    "keywords": [
+      "yeoman-generator",
       "yeoman-generator-spring-magic",
       "spring-boot",
       "Java",
@@ -18,7 +19,7 @@
       "url": "https://github.com/bsalgautam16/generator-spring-magic.git"
    },
    "author": "Bishal Gautam",
-   "contact": "bishalg.tech@gmail.com",
+   "email": "bishalg.tech@gmail.com",
    "dependencies": {
       "yeoman-environment": "2.3.4",
       "yeoman-generator": "3.2.0",
