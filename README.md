@@ -1,6 +1,6 @@
 # generator-spring-magic
 Yeoman generator for creating very basic web application with Spring MVC and Tomcat.
-##### Create a basic spring web application in just 2 seconds !! 
+#### Create a basic spring web application in just 2 seconds !! 
 
 
 
@@ -17,8 +17,6 @@ Yeoman generator for creating very basic web application with Spring MVC and Tom
 npm install -g generator-spring-magic
 ```
 
-
-
 ## Uses
 ### Quick set-up spring-boot web application ( 2 seconds [magic])
 we can trigger generator to generate basic spring-boot web application with following command:
@@ -32,6 +30,30 @@ project name: `[your-app-name]`
 base name (artifact-id): `[your-app-name]`
 goup-id:`com.example.[your-app-name]`
 
+Suppose, if `[your-app-name]` is `magic`, then it will instantly generate spring-boot web project will following structure:
+
+```
+-- magic
+    |-- pom.xml
+    `-- src
+        |-- main
+        |   |-- java
+        |   |   `-- com
+        |   |       `-- example
+        |   |           `-- magic
+        |   |               `-- DemoApplication.java
+        |   `-- resources
+        |       |-- application.properties
+        |       `-- static
+        |           `-- index.html
+        `-- test
+            `-- java
+                `-- com
+                    `-- example
+                        `-- magic
+                            `-- DemoApplicationTests.java
+
+```
 
 ### Set-up spring-boot web application answering 2 questions [magic]
 we can generate spring-boot web application with few propeties provided by user with following command:
@@ -49,4 +71,4 @@ Based upon our answer, it will generate spring-boot web application with mention
 After project generation, open it with intelliJ and build and run the project. 
 If everything goes well, we will see a running web application at: `http://localhost:8080/`
 
-# Thanks for reading !!
+##### Thanks for reading. Any suggestion and/or improvement are highly welcome !!
